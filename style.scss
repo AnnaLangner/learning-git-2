@@ -1,6 +1,6 @@
 $firstcolor: #FFFFFF;
 $seckondcolor: #000000;
-$thirdcolor: #0000FF;
+$thirdcolor: #191970;
 
 * {
     box-sizing: border-box;
@@ -18,5 +18,16 @@ header {
     h1, p{
         color: $seckondcolor;
         text-align: center;
+        position: relative;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.text_song {
+    pre{
+        font-weight: normal;
+        text-align: center;
+        color: $thirdcolor;
     }
 }
