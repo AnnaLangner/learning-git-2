@@ -1,2 +1,2 @@
-npm run build:autoprefixer
-npm run test:html
+npm run watch
+
